@@ -1,5 +1,8 @@
 # 🗳️ Ensemble
 
+*Multi-model consensus debate via the filesystem — LLMs propose, peer-review,
+rebut, vote, and synthesize a group-confirmed answer. CLI + MCP.*
+
 ![Python](https://img.shields.io/badge/python-3.10%2B-blue)
 ![Tests](https://img.shields.io/badge/tests-98%20passing-brightgreen)
 ![Lint](https://img.shields.io/badge/lint-ruff-261230)
