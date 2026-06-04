@@ -23,6 +23,7 @@ and a coordinator advances the debate phase by phase. Participants are
 arguments on merit, not on brand.
 
 ```mermaid
+%%{init: {'theme':'neutral', 'themeVariables': {'fontSize':'22px'}, 'flowchart': {'nodeSpacing': 55, 'rankSpacing': 70, 'padding': 16}}}%%
 flowchart LR
     P[PROPOSING] --> R[REVIEWING] --> B[REBUTTAL] --> V{VOTING}
     V -- "revise / split<br/>(positions still moving)" --> P
