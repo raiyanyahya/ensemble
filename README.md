@@ -1,4 +1,4 @@
-# Ensemble
+# 🗳️ Ensemble
 
 ![Python](https://img.shields.io/badge/python-3.10%2B-blue)
 ![Tests](https://img.shields.io/badge/tests-98%20passing-brightgreen)
