@@ -1,0 +1,14 @@
+{
+  "name": "ensemble",
+  "displayName": "Ensemble — multi-model council",
+  "version": "0.1.0",
+  "description": "Convene a council of LLMs that independently propose, peer-review, rebut, vote, and synthesize a group-confirmed consensus answer — exposed as the ensemble_debate tool plus an /ensemble command.",
+  "author": {
+    "name": "Raiyan Yahya",
+    "email": "raiyanyahyadeveloper@gmail.com"
+  },
+  "homepage": "https://github.com/your-org/ensemble",
+  "repository": "https://github.com/your-org/ensemble",
+  "license": "MIT",
+  "keywords": ["consensus", "multi-model", "debate", "council", "mcp", "verification"]
+}

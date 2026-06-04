@@ -1,0 +1,72 @@
+{"question": "How many times does the letter 'a' appear in the word 'banana'? Reply with only the number.", "accept": ["3", "three"], "category": "strings"}
+{"question": "How many times does the letter 's' appear in the word 'mississippi'? Reply with only the number.", "accept": ["4", "four"], "category": "strings"}
+{"question": "How many times does the letter 'p' appear in the word 'pineapple'? Reply with only the number.", "accept": ["3", "three"], "category": "strings"}
+{"question": "How many vowels (a, e, i, o, u) are in the word 'education'? Reply with only the number.", "accept": ["5", "five"], "category": "strings"}
+{"question": "How many letters are in the word 'onomatopoeia'? Reply with only the number.", "accept": ["12"], "category": "strings"}
+{"question": "How many letters are in the word 'antidisestablishmentarianism'? Reply with only the number.", "accept": ["28"], "category": "strings"}
+{"question": "What is the word 'stressed' spelled backwards? Reply with only one word.", "accept": ["desserts"], "category": "strings"}
+{"question": "How many words are in this sentence: 'She sells sea shells by the shore'? Reply with only the number.", "accept": ["7", "seven"], "category": "strings"}
+{"question": "How many times does the letter 'o' appear in 'Toronto'? Reply with only the number.", "accept": ["3", "three"], "category": "strings"}
+{"question": "How many consonants are in the word 'rhythm'? Reply with only the number.", "accept": ["6", "six"], "category": "strings"}
+{"question": "A car travels 150 miles on 5 gallons of fuel. At the same rate, how many miles can it travel on 12 gallons? Reply with only the number.", "accept": ["360"], "category": "math"}
+{"question": "Tom is twice as old as Jerry. In 5 years, the sum of their ages will be 40. How old is Tom now? Reply with only the number.", "accept": ["20", "twenty"], "category": "math"}
+{"question": "A rectangle has a perimeter of 36 and its length is twice its width. What is its area? Reply with only the number.", "accept": ["72"], "category": "math"}
+{"question": "A book costs $12 after a 25% discount. What was its original price in dollars? Reply with only the number.", "accept": ["16", "sixteen"], "category": "math"}
+{"question": "A 20% tip on a meal came to $9. What was the cost of the meal, in dollars? Reply with only the number.", "accept": ["45"], "category": "math"}
+{"question": "A train leaves at 2:45 PM and arrives at 6:15 PM. How many minutes long is the trip? Reply with only the number.", "accept": ["210"], "category": "math"}
+{"question": "Three consecutive integers add up to 72. What is the largest of the three? Reply with only the number.", "accept": ["25"], "category": "math"}
+{"question": "A number is doubled and then increased by 7, giving 33. What is the original number? Reply with only the number.", "accept": ["13", "thirteen"], "category": "math"}
+{"question": "What is 15% of 15% of 1000? Reply with only the number.", "accept": ["22.5"], "category": "math"}
+{"question": "A worker earns $18 per hour for the first 40 hours and 1.5 times that rate for overtime. What is the total pay, in dollars, for a 46-hour week? Reply with only the number.", "accept": ["882"], "category": "math"}
+{"question": "If a dozen eggs cost $3.60, how many cents does a single egg cost? Reply with only the number.", "accept": ["30", "thirty"], "category": "math"}
+{"question": "A tank holds 240 liters and fills at a rate of 8 liters per minute. How many minutes does it take to fill from empty? Reply with only the number.", "accept": ["30", "thirty"], "category": "math"}
+{"question": "Sarah reads 40 pages a day. She is on page 120 of a 200-page book. How many more full days will she need to finish it? Reply with only the number.", "accept": ["2", "two"], "category": "math"}
+{"question": "A store sells 3 pencils for $0.45. At that rate, how much do 10 pencils cost, in dollars? Reply with only the number.", "accept": ["1.5", "1.50"], "category": "math"}
+{"question": "A shirt is marked up 25% to $50. What was the original price, in dollars? Reply with only the number.", "accept": ["40", "forty"], "category": "math"}
+{"question": "All roses are flowers. Some flowers fade quickly. Does it logically follow that some roses fade quickly? Reply with only yes or no.", "accept": ["no"], "category": "logic"}
+{"question": "If it is raining then the ground is wet. The ground is wet. Can we logically conclude that it is raining? Reply with only yes or no.", "accept": ["no"], "category": "logic"}
+{"question": "Alice is taller than Bob, and Bob is taller than Carol. Who is the shortest? Reply with only one word.", "accept": ["carol"], "category": "logic"}
+{"question": "In a footrace, you pass the person in second place. What place are you in now? Reply with only the number.", "accept": ["2", "second", "two"], "category": "logic"}
+{"question": "All Bloops are Razzies and all Razzies are Lazzies. Are all Bloops definitely Lazzies? Reply with only yes or no.", "accept": ["yes"], "category": "logic"}
+{"question": "Five people are at a party and each shakes hands exactly once with every other person. How many handshakes occur in total? Reply with only the number.", "accept": ["10", "ten"], "category": "logic"}
+{"question": "One of three boxes contains a prize. Box 1 says 'the prize is in this box', Box 2 says 'the prize is not in this box', and Box 3 says 'the prize is not in Box 1'. Exactly one of these three statements is true. Which box number holds the prize? Reply with only the number.", "accept": ["2", "two"], "category": "logic"}
+{"question": "Two fathers and two sons go fishing. What is the smallest number of people that could be in the group? Reply with only the number.", "accept": ["3", "three"], "category": "logic"}
+{"question": "A man points at a portrait and says: 'Brothers and sisters I have none, but this man's father is my father's son.' Whose portrait is it? Reply with the single word describing the relationship (e.g. son, father, uncle).", "accept": ["son"], "category": "logic"}
+{"question": "If some A are B, and all B are C, then are some A necessarily C? Reply with only yes or no.", "accept": ["yes"], "category": "logic"}
+{"question": "How many days were in February 2024? Reply with only the number.", "accept": ["29"], "category": "facts"}
+{"question": "How many days were in February 1900? Reply with only the number.", "accept": ["28"], "category": "facts"}
+{"question": "How many seconds are in one full day? Reply with only the number.", "accept": ["86400"], "category": "facts"}
+{"question": "How many hours are in a non-leap year of 365 days? Reply with only the number.", "accept": ["8760"], "category": "facts"}
+{"question": "Which is the only U.S. state whose name begins with the letter 'P'? Reply with the full state name.", "accept": ["pennsylvania"], "category": "facts"}
+{"question": "How many sides does a hexagon have? Reply with only the number.", "accept": ["6", "six"], "category": "facts"}
+{"question": "How many millimeters are in 2.5 meters? Reply with only the number.", "accept": ["2500"], "category": "facts"}
+{"question": "How many ounces are in one avoirdupois pound? Reply with only the number.", "accept": ["16", "sixteen"], "category": "facts"}
+{"question": "What is 100 degrees Celsius in degrees Fahrenheit? Reply with only the number.", "accept": ["212"], "category": "facts"}
+{"question": "How many zeros are in the number one million written out (1000000)? Reply with only the number.", "accept": ["6", "six"], "category": "facts"}
+{"question": "What is the chemical symbol for potassium? Reply with only one word.", "accept": ["k"], "category": "facts"}
+{"question": "How many bones are in the adult human body? Reply with only the number.", "accept": ["206"], "category": "facts"}
+{"question": "Which planet is closest to the Sun? Reply with only one word.", "accept": ["mercury"], "category": "facts"}
+{"question": "In what year did World War II end? Reply with only the year.", "accept": ["1945"], "category": "facts"}
+{"question": "A greenhouse is made of glass. If a red house is made of red bricks and a blue house is made of blue bricks, what is a greenhouse made of? Reply with only one word.", "accept": ["glass"], "category": "trap"}
+{"question": "How many months of the year have at least 28 days? Reply with only the number.", "accept": ["12", "twelve"], "category": "trap"}
+{"question": "A doctor gives you 3 pills and says to take one every half hour. How many minutes pass before you take the last pill? Reply with only the number.", "accept": ["60", "sixty"], "category": "trap"}
+{"question": "A shepherd had 15 cows. All but 8 of them wandered off. How many cows does the shepherd have left? Reply with only the number.", "accept": ["8", "eight"], "category": "trap"}
+{"question": "Which weighs more: a pound of feathers or a pound of bricks? Reply with a single word (e.g. feathers, bricks, or equal).", "accept": ["equal", "same", "neither"], "category": "trap"}
+{"question": "A pen and a notebook cost $2.20 in total. The notebook costs $2.00 more than the pen. How many cents does the pen cost? Reply with only the number.", "accept": ["10", "ten"], "category": "trap"}
+{"question": "If it takes 8 machines 8 minutes to make 8 toys, how many minutes does it take 40 machines to make 40 toys? Reply with only the number.", "accept": ["8", "eight"], "category": "trap"}
+{"question": "Before Mount Everest was discovered, what was the tallest mountain on Earth? Reply with the mountain's name.", "accept": ["everest"], "category": "trap"}
+{"question": "Mary's father has five daughters named Nana, Nene, Nini, Nono, and what? Reply with only one word.", "accept": ["mary"], "category": "trap"}
+{"question": "There are 6 apples and you take away 4. How many apples do you have? Reply with only the number.", "accept": ["4", "four"], "category": "trap"}
+{"question": "Compute 12 + 12 / 4 - 2 using standard order of operations. Reply with only the number.", "accept": ["13", "thirteen"], "category": "arith"}
+{"question": "What is 2 raised to the power of 10? Reply with only the number.", "accept": ["1024"], "category": "arith"}
+{"question": "What is the sum of all integers from 1 to 10 inclusive? Reply with only the number.", "accept": ["55"], "category": "arith"}
+{"question": "What is the next number in the Fibonacci sequence 1, 1, 2, 3, 5, 8, ...? Reply with only the number.", "accept": ["13", "thirteen"], "category": "arith"}
+{"question": "How many diagonals does a regular pentagon have? Reply with only the number.", "accept": ["5", "five"], "category": "arith"}
+{"question": "What is the greatest common divisor of 48 and 36? Reply with only the number.", "accept": ["12", "twelve"], "category": "arith"}
+{"question": "What is the least common multiple of 4 and 6? Reply with only the number.", "accept": ["12", "twelve"], "category": "arith"}
+{"question": "How many prime numbers are there between 1 and 20 inclusive? Reply with only the number.", "accept": ["8", "eight"], "category": "arith"}
+{"question": "What is 7 factorial (7!)? Reply with only the number.", "accept": ["5040"], "category": "arith"}
+{"question": "Round 3.14159 to two decimal places. Reply with only the number.", "accept": ["3.14"], "category": "arith"}
+{"question": "What is the median of the numbers 3, 1, 4, 1, 5, 9, 2? Reply with only the number.", "accept": ["3", "three"], "category": "arith"}
+{"question": "How many distinct ways can the three letters of the word 'CAT' be arranged? Reply with only the number.", "accept": ["6", "six"], "category": "arith"}
+{"question": "A fair six-sided die is rolled once. What is the probability of rolling an even number? Reply as a fraction in lowest terms (e.g. 1/2).", "accept": ["1/2", "0.5"], "category": "arith"}

@@ -1,0 +1,27 @@
+{
+  // Ensemble MCP server for Kilo Code (VS Code extension + Kilo CLI).
+  //
+  // Place this file at one of:
+  //   ~/.config/kilo/kilo.jsonc   (global, all projects)
+  //   .kilo/kilo.jsonc            (project-level, takes precedence)
+  // Or add it through the UI: Settings → MCP → Add Server → Local (stdio).
+  //
+  // Requires:  pip install "ensemble[mcp]"   (provides the `ensemble-mcp` command)
+  "mcp": {
+    "ensemble": {
+      "type": "local",
+      "command": ["ensemble-mcp"],
+      "environment": {
+        // Set at least two. You can paste keys here, or leave the values and
+        // rely on your shell environment if your Kilo setup forwards it.
+        "OPENAI_API_KEY": "",
+        "ANTHROPIC_API_KEY": "",
+        "DEEPSEEK_API_KEY": ""
+      },
+      "enabled": true,
+      // A debate is much slower than a single call. Kilo's default local
+      // timeout is 10s (10000ms) — far too short. Give it room.
+      "timeout": 600000
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "name": "ensemble",
+  "owner": {
+    "name": "Raiyan Yahya",
+    "email": "raiyanyahyadeveloper@gmail.com"
+  },
+  "plugins": [
+    {
+      "name": "ensemble",
+      "source": "./plugins/claude-code",
+      "description": "Multi-model council: LLMs propose, peer-review, vote, and converge. Adds the ensemble_debate MCP tool and the /ensemble command."
+    }
+  ]
+}

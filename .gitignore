@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+build/
+dist/
+
+# Virtualenvs
+.venv/
+venv/
+env/
+
+# Tooling caches
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+
+# Ensemble runtime data (debates live in ~/.ensemble by default)
+.ensemble/
+
+# Eval secrets + raw run logs (never commit API keys or per-question dumps)
+evals/.env
+evals/*-run.jsonl
+
+# Editor / OS
+.DS_Store
+.idea/
+.vscode/
+
+# Claude Code local settings (may contain machine-local data / secrets in
+# recorded command permissions — never commit)
+.claude/settings.local.json

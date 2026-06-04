@@ -1,0 +1,49 @@
+[project]
+name = "ensemble"
+version = "0.1.0"
+description = "Multi-model consensus debate via filesystem — three top LLMs debate, vote, and converge autonomously"
+requires-python = ">=3.10"
+dependencies = [
+    "httpx>=0.28",
+    "typer>=0.15",
+    "rich>=13.0",
+    "pydantic>=2.10",
+]
+
+[project.optional-dependencies]
+mcp = [
+    "mcp>=1.2",
+]
+dev = [
+    "pytest>=8.0",
+    "pytest-asyncio>=0.24",
+    "ruff>=0.6",
+    "mcp>=1.2",
+]
+
+[project.scripts]
+ensemble = "src.cli:app"
+ensemble-mcp = "src.mcp_server:main"
+ensemble-eval = "src.eval:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src"]
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+testpaths = ["tests"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py310"
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "UP", "B"]
+
+[tool.ruff.lint.per-file-ignores]
+# Typer's documented idiom puts Option()/Argument() calls in argument defaults.
+"src/cli.py" = ["B008"]

@@ -1,0 +1,15 @@
+{"question": "How many times does the letter 'r' appear in the word 'strawberry'? Reply with only the number.", "accept": ["3", "three"]}
+{"question": "How many times does the letter 'e' appear in the word 'embezzlement'? Reply with only the number.", "accept": ["4", "four"]}
+{"question": "Which is larger, 9.11 or 9.9? Reply with only the larger number.", "accept": ["9.9", "9.90"]}
+{"question": "Sally has 3 brothers. Each of her brothers has 2 sisters. How many sisters does Sally have? Reply with only the number.", "accept": ["1", "one"]}
+{"question": "A farmer has 17 sheep. All but 9 die. How many sheep are left? Reply with only the number.", "accept": ["9", "nine"]}
+{"question": "If 5 machines take 5 minutes to make 5 widgets, how many minutes do 100 machines take to make 100 widgets? Reply with only the number.", "accept": ["5", "five"]}
+{"question": "A patch of algae doubles in size every day and covers a lake in 60 days. On which day was the lake half covered? Reply with only the number.", "accept": ["59"]}
+{"question": "If today is Monday, what day of the week will it be 100 days from now? Reply with only the day name.", "accept": ["wednesday"]}
+{"question": "Compute 8 - 2 * 3 + 4. Reply with only the number.", "accept": ["6", "six"]}
+{"question": "How many minutes are there in one week? Reply with only the number.", "accept": ["10080"]}
+{"question": "What is the 7th term of the sequence 3, 6, 12, 24, ...? Reply with only the number.", "accept": ["192"]}
+{"question": "How many integers from 1 to 100 inclusive are divisible by 7? Reply with only the number.", "accept": ["14"]}
+{"question": "On an analog clock at 3:15, what is the smaller angle in degrees between the hour and minute hands? Reply with only the number.", "accept": ["7.5"]}
+{"question": "How many words are in the sentence: 'The quick brown fox jumps over'? Reply with only the number.", "accept": ["6", "six"]}
+{"question": "A bat and a ball cost $1.10 together. The bat costs $1.00 more than the ball. How many cents does the ball cost? Reply with only the number.", "accept": ["5", "five"]}
