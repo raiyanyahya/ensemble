@@ -23,7 +23,7 @@ export DEEPSEEK_API_KEY=...
 From the marketplace at the repo root:
 
 ```text
-/plugin marketplace add your-org/ensemble      # or a local path to this repo
+/plugin marketplace add raiyanyahya/ensemble      # or a local path to this repo
 /plugin install ensemble@ensemble
 ```
 

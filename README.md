@@ -83,7 +83,7 @@ installs the server used by the editor plugins — include it so you get
 everything in one go.
 
 ```bash
-git clone https://github.com/your-org/ensemble.git
+git clone https://github.com/raiyanyahya/ensemble.git
 cd ensemble
 
 python -m venv .venv
@@ -202,7 +202,7 @@ are set in the environment the client launches it from.
 Install the bundled plugin (adds the `/ensemble` command **and** the tool):
 
 ```text
-/plugin marketplace add /absolute/path/to/ensemble     # this repo (or your-org/ensemble on GitHub)
+/plugin marketplace add /absolute/path/to/ensemble     # this repo (or raiyanyahya/ensemble on GitHub)
 /plugin install ensemble@ensemble
 ```
 
